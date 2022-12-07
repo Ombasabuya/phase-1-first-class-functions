@@ -1,16 +1,16 @@
 function receivesAFunction(callback){
     return callback();
 }
-receivesAFunction(function(){return 'Just needed to call you back lol';})
+receivesAFunction(function(){return 'This is a true callback function example'});
 
 function returnsANamedFunction(){
     return function named(){
-        return 'You are a good function';
+        return 'This is  a named function';
     }
 }
 
 function returnsAnAnonymousFunction(){
     return function(){
-        return "You are an anonymous function";
+        return "This is  an anonymous function";
     }
 }
